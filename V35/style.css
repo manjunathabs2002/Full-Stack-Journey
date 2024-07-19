@@ -1,0 +1,47 @@
+.box:first-child {
+    background-color: red;
+}
+
+/* .box::first-line{
+    background-color: yellow;
+    color: red;
+} */
+
+/* .boxes * {
+    color: blue;
+    background-color: green;
+    border: 2px solid black;
+}
+
+p,a,.boxes,[data-color="Primary"]{
+margin-top: 45px;
+padding: 45px;
+}  */
+
+.box:nth-child(odd) {
+    background-color: aquamarine;
+}
+
+.boxes::before {
+    content: "I am good";
+    color: red;
+}
+
+.boxes::after {
+    content: "I am good";
+    color: blue;
+}
+
+::selection {
+    color: aqua;
+    background-color: black;
+}
+
+.box::first-letter {
+    color: peru;
+    font-size: xx-small;
+}
+input::placeholder{
+    color: rgb(4, 209, 240);
+    font-size: xx-small;
+}

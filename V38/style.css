@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    border: 2px solid red;
+    flex-flow: row wrap;
+    overflow: scroll;
+    gap: 10px 40px;
+}
+
+.item {
+    border: 2px solid rgb(222, 222, 8);
+    background-color: blue;
+    margin: 4px;
+    height: 92px;
+    width: 92px;
+    color: white;
+    text-align: center;
+    align-content: center;
+
+}
+
+.order-1 {
+    order: 1;
+}
+.order-2 {
+    order: 2;
+}
+.order-3 {
+    order: 3;
+}
